@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: rgb(226, 226, 226);
+}
+
+img {
+  width: 60px;
+}
+
+.container {
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+}
+.sample {}
+.searchbox {
+  padding: 10px;
+  width: 700px;
+  margin-bottom: 2rem;
+  border: none;
+}
+
+.retrievedata div {
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.retrievedata {
+  background-color: rgb(255, 255, 255);
+  border: 0px solid black;
+  border-radius: 3px;
+  width: 700px;
+  height: 400px;
+  padding: 2rem;
+  overflow-y: scroll;
+}
+
+.itemByitem {
+  display: flex;
+  flex-direction: row;
+}
